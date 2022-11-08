@@ -6,6 +6,7 @@
     <title>Website Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../challenge/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   </head>
   <body>
 
@@ -18,9 +19,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>
             <div class="navbar-nav ml-auto">
               <a class="nav-link active px-lg-4 rounded" href="#">Home</a>
-              <a class="nav-link px-lg-4 rounded" href="#">About Me</a>
-              <a class="nav-link px-lg-4 rounded" href="#">My Projects</a>
-              <a class="nav-link px-lg-4 rounded" href="#">Contact Me</a>
+              <a class="nav-link px-lg-4 rounded" href="#about">About Me</a>
+              <a class="nav-link px-lg-4 rounded" href="#projects">My Projects</a>
+              <a class="nav-link px-lg-4 rounded" href="#contact">Contact Me</a>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@
         <div class="container py-5">
             <div class="row py-5">
                 <div class="col-lg-5 py-5">
-                    <img src="./assets/images/morgan.jpg" class="img-fluid" alt="#">
+                    <img src="./assets/images/morgan.jpg" class="img-fluid" alt="#about">
                 </div>
                 <h1>About Me.</h1>
                 <p>Front-End Web Dev</p>
@@ -61,26 +62,100 @@
         </div>
     </section>
 
-    <section class="projects py-5 bg-light">
-        <div class="conatiner py-5">
-            <h1 class="text-center pb-5">My Projects</h1>
-            <div class="row pb-3">
+    <section class="Project blog py-5">
+        <div class="container">
+            <h1 class="text-center">Projects</h1>
+            <div class="row py-5">
                 <div class="col-lg-4 mb-3">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <div class="circle">
-                                <span><i class="fas fa-desktop"></i></span>
-                            </div>
-                            <h4 class="font-weight-bold pb-2">Project X</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatum quod qui numquam. Eius perspiciatis ipsa sed vitae aut ipsam praesentium nostrum ea quod exercitationem, sequi obcaecati! Voluptates, blanditiis magnam!</p>
-
-                        </div>
+                    <div class="card">
+                        <img src="../challenge/assets/images/download.jpg" class="img-fluid" alt="#">
+                        <small class="px-3 py-3 font-weight-bold">Project 1</small>
+                        <h5 class="font-weight-bold px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, explicabo officiis maxime odio deleniti temporibus nesciunt voluptate. Nobis odit soluta fugit accusamus inventore amet culpa qui, cupiditate eius eum?</h5>
+                        <a href="#" class="font-weight-bold px-3 pb-4"><u>See More</u></a>
                     </div>
-
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="../challenge/assets/images/cat2.jpg" class="img-fluid" alt="#">
+                        <small class="px-3 py-3 font-weight-bold">Project 1</small>
+                        <h5 class="font-weight-bold px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, explicabo officiis maxime odio deleniti temporibus nesciunt voluptate. Nobis odit soluta fugit accusamus inventore amet culpa qui, cupiditate eius eum?</h5>
+                        <a href="#" class="font-weight-bold px-3 pb-4"><u>See More</u></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="../challenge/assets/images/cat3.jpg" class="img-fluid" alt="#">
+                        <small class="px-3 py-3 font-weight-bold">Project 1</small>
+                        <h5 class="font-weight-bold px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in, explicabo officiis maxime odio deleniti temporibus nesciunt voluptate. Nobis odit soluta fugit accusamus inventore amet culpa qui, cupiditate eius eum?</h5>
+                        <a href="#" class="font-weight-bold px-3 pb-4"><u>See More</u></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="contact py-5">
+        <div class="container py-5">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                            </div>
+                            <h5>Email</h5>
+                            <p>Khoubaib15@outlook.com</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fa-solid fa-phone"></i></span>
+                            </div>
+                            <h5>Phone Number</h5>
+                            <p>0123456789</p>
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fa-solid fa-location-pin"></i></span>  
+                            </div>
+                            <h5>Location</h5>
+                            <p>London</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control mb-3" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control mb-3" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <textarea name="" id="" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn3 my-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-3 text-center">
+        <p>Copyright 2022 Ⓒ Khoubaib </p>
+    </footer>
+
+
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
