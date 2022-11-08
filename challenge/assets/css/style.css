@@ -74,3 +74,46 @@ navbar{
     transition: 0.5s;
     
 }
+
+.about img{
+    -webkit-box-shadow: 22px 7px 11px -7px rgba(0,0,0,0.58);
+-moz-box-shadow: 22px 7px 11px -7px rgba(0,0,0,0.58);
+box-shadow: 22px 7px 11px -7px rgba(0,0,0,0.58);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
